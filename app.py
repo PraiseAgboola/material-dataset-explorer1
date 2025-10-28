@@ -16,7 +16,7 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-st.markdown('<p class="main-header">⚡ Materials Dataset Explorer</p>', unsafe_allow_html=True)
+st.markdown('<p class="main-header"> Materials Dataset Explorer</p>', unsafe_allow_html=True)
 st.markdown('<p class="sub-header">Analyze, Compare, and Optimize Material Selection</p>', unsafe_allow_html=True)
 
 # Sidebar
