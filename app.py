@@ -30,3 +30,8 @@ if "Material" in df.columns and "Year" in df.columns and "Demand" in df.columns:
     st.pyplot(fig)
 else:
     st.warning("Make sure your data has 'Material', 'Year', and 'Demand' columns.")
+
+pip install -r requirements.txt
+streamlit run app.py
+
+
