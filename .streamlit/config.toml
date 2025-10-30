@@ -3,4 +3,4 @@ primaryColor = "#00D9FF" # Bright cyan accent for interactivity
 backgroundColor = "#0A0E27" # Deep navy background
 secondaryBackgroundColor = "#1A1F3A" # Slightly lighter for cards/panels
 textColor = "#E8EAED" # Light gray text for readability
-font = "Inter"
+font = "IBM Plex Sans"
