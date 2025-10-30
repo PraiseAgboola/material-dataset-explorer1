@@ -42,14 +42,14 @@ def load_sample_data():
     return pd.DataFrame(data)
 
 # File uploader
-uploaded_file = st.sidebar.file_uploader("Upload your Kaggle CSV", type=['csv'])
+uploaded_file = st.sidebar.file_uploader("Upload your CSV", type=['csv'])
 
 if uploaded_file is not None:
     df = pd.read_csv(uploaded_file)
     st.sidebar.success("✅ Dataset loaded!")
 else:
     df = load_sample_data()
-    st.sidebar.info("📝 Using sample data. Upload your Kaggle dataset to begin.")
+    st.sidebar.info("📝 Using sample data. Upload your dataset to begin.")
 
 # Display dataset info
 st.sidebar.metric("Total Materials", len(df))
