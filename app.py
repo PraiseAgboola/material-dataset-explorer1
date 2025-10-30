@@ -28,6 +28,7 @@ st.markdown("""
     <style>
     .main-header {font-size: 2.5rem; font-weight: bold; color: #1f77b4;}
     .sub-header {font-size: 1.2rem; color: #666;}
+    col1, col2 = st.columns([3, 1])
     </style>
 """, unsafe_allow_html=True)
 
