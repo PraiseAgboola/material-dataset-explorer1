@@ -33,7 +33,7 @@ st.markdown("""
     <a href='https://github.com/PraiseAgboola/material-dataset-explorer1' target='_blank'>
         <button style='background-color:#2563eb;color:white;border:none;
         padding:0.7rem 1.5rem;border-radius:8px;cursor:pointer;font-size:1rem;'>
-            ⭐ View Project on GitHub
+            View Project on GitHub
         </button>
     </a>
 </div>
@@ -197,7 +197,5 @@ with tabs[3]:
 # ------------------------------------------------
 st.markdown("""
 ---
-<div style='text-align:center; color:gray; font-size:0.9rem;'>
-Built with ❤️ by <a href='https://github.com/PraiseAgboola' target='_blank'>Praise Agboola</a> | Powered by Streamlit & Plotly
-</div>
+
 """, unsafe_allow_html=True)
