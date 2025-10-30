@@ -5,6 +5,21 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from io import StringIO
 
+st.markdown("""
+<div style='text-align:center; padding:2rem 0;'>
+    <h1 style='color:#2563eb; font-size:2.5rem;'>🔋 Material Dataset Explorer</h1>
+    <p style='color:#555; font-size:1.1rem;'>
+        Discover insights, optimize materials, and visualize trade-offs in next-generation battery research.
+    </p>
+    <a href='https://github.com/PraiseAgboola/material-dataset-explorer1' target='_blank' style='text-decoration:none;'>
+        <button style='background-color:#2563eb;color:white;border:none;padding:0.7rem 1.5rem;border-radius:8px;cursor:pointer;'>
+            ⭐ View on GitHub
+        </button>
+    </a>
+</div>
+""", unsafe_allow_html=True)
+
+
 # Page configuration
 st.set_page_config(page_title="Materials Dataset Explorer", layout="wide", page_icon="🔋")
 
