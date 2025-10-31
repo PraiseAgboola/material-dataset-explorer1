@@ -16,8 +16,7 @@ import matplotlib.pyplot as plt
 # ------------------------------------------------
 st.set_page_config(
     page_title="Material Dataset Explorer",
-    layout="wide",
-    page_icon="🔋"
+    layout="wide"
 )
 
 # ------------------------------------------------
@@ -25,7 +24,7 @@ st.set_page_config(
 # ------------------------------------------------
 st.markdown("""
 <div style='text-align:center; padding:1.5rem 0;'>
-    <h1 style='color:#2563eb; font-size:2.5rem; font-weight:700;'>🔋 Material Dataset Explorer</h1>
+    <h1 style='color:#2563eb; font-size:2.5rem; font-weight:700;'> Material Dataset Explorer</h1>
     <p style='color:#475569; font-size:1.1rem;'>
         Discover insights, optimize material choices, and visualize trade-offs 
         in next-generation energy materials.
